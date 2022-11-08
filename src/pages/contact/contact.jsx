@@ -16,7 +16,7 @@ const Contact = () => {
                 <p>Skambinti galima nuo 8:00 iki 19:00 d.d.</p>
               </div>
               <div className="col-md-6">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31196.517899620227!2d24.974593824810444!3d54.468317394358586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dde5ed0bb71b41%3A0x7372e766254efe6!2sMamavys%2021169!5e0!3m2!1slt!2slt!4v1657522942459!5m2!1slt!2slt" width="600" height="450" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <iframe title={"maps"} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31196.517899620227!2d24.974593824810444!3d54.468317394358586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dde5ed0bb71b41%3A0x7372e766254efe6!2sMamavys%2021169!5e0!3m2!1slt!2slt!4v1657522942459!5m2!1slt!2slt" width={600} height={450} style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               </div>
       </div>
     </div>
