@@ -10,7 +10,7 @@ const ProductPreview = () => {
     const { openModal } = useGlobalContext();
   return (
     <div className="container product-preview">
-        <h3>POPULIARIAUSI PRODUKTAI</h3>
+        <h3>ŠIUO METU PREKYBOJE</h3>
         <div className="double-line"></div>
         <div className="cards row">
         {BerryData.map((item)=>

@@ -4,6 +4,8 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 
 const Footer = () => {
+    const date = new Date();
+
   return (
     <footer>
         <div className="container split">
@@ -23,7 +25,7 @@ const Footer = () => {
             <div className="footer-bottom">
                 <div className="underline-blank"></div>
                 <div className="footer-text">
-                    <span>Visos teisės saugomos. © 2022 "Saldžių uogų ūkis".</span><span>www.saldziosuogos.lt</span>
+                    <span>Visos teisės saugomos. ©{date.getFullYear()} "Saldžių uogų ūkis".</span><span>www.saldziosuogos.lt</span>
                 </div>
             </div>
         </div>

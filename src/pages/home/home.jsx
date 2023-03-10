@@ -9,7 +9,7 @@ import Modal from "../../contents/modal/modal";
 const Home = () => {
   return (
   <div>
-    <Owl className="owl-theme"/>
+    {/* <Owl className="owl-theme"/> */}
     <ProductPreview />
     <Modal />
     <WhyChoose />

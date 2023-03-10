@@ -26,6 +26,7 @@ const Header = () => {
           </div>
           <div className="underline"></div>
           <NavBar />
+          <div className="underline"></div>
           
       </div>
     </div>
