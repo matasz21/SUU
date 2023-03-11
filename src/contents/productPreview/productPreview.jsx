@@ -13,8 +13,8 @@ const ProductPreview = () => {
         <h3>ŠIUO METU PREKYBOJE</h3>
         <div className="double-line"></div>
         <div className="cards row">
-        {BerryData.map((item)=>
-            <div className="col-xl-4">
+        {BerryData.map((item, index)=>
+            <div key={index} className="col-xl-4">
                 <div className="card">
                     <img src={item.img} alt="" className="card-img-top" />
                     <div className="card-body">
